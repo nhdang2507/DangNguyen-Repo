@@ -1,0 +1,41 @@
+{
+  "name": "cypress-group-3",
+  "version": "1.0.0",
+  "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open",
+    "cy:run": "npx cypress run",
+    "cy:run:chrome": "npx cypress run --browser chrome",
+    "cy:run:firefox": "npx cypress run --browser firefox",
+    "report:open": "open-cli cypress/reports/index.html",
+    "test:report": "npm run cy:run && npm run report:open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/iris.huynh00/cypress-group-3.git"
+  },
+  "author": "group3",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/iris.huynh00/cypress-group-3/issues"
+  },
+  "homepage": "https://gitlab.com/iris.huynh00/cypress-group-3#readme",
+  "devDependencies": {
+    "allure-commandline": "^2.18.1",
+    "cypress": "^10.4.0",
+    "cypress-mochawesome-reporter": "^3.2.2",
+    "cypress-real-events": "^1.7.1",
+    "cypress-xpath": "^2.0.1",
+    "mocha": "^10.0.0",
+    "mocha-allure-reporter": "^1.4.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.2.1",
+    "mochawesome-report-generator": "^6.2.0"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cypress-real-events": "^1.7.1"
+  }
+}
