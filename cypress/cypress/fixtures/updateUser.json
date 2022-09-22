@@ -1,0 +1,21 @@
+{
+  "updateAccount":
+  {
+    "firstName": "Vuong",
+    "lastName": "Minh",
+    "userName": "minhvuongtest123",
+    "location": "Da Nang",
+    "personalSite": "https://github.com/vuong1mp",
+    "bio": "Cypress Group 3",
+    "interests": "Music",
+    "instagram": "minhvuong_2k",
+    "twitter": "minhvuong11",
+    "emailDonation" : "minhvuong@gmail.com"
+  },
+  "originalAccount":
+  {
+    "firstName": "Cypress",
+    "lastName": "Group3",
+    "userName": "cypress_group3"
+  }
+}
