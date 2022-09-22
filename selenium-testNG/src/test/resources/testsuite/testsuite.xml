@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="suite">
+    <parameter name="browser" value="chrome"></parameter>
+    <test name="test suite">
+        <classes>
+            <class name="com.nashtech.tests.StudentRegisterTest"/>
+            <class name="com.nashtech.tests.SearchBookTest"/>
+            <class name="com.nashtech.tests.AddBookTest"/>
+            <class name="com.nashtech.tests.DeleteBookTest"/>
+        </classes>
+    </test>
+</suite>
