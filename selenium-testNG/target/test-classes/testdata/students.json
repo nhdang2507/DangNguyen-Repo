@@ -1,0 +1,20 @@
+{
+  "firstName": "Dang",
+  "lastName": "Nguyen Hoang",
+  "userEmail": "nhdang2507@gmail.com",
+  "gender": "Male",
+  "mobile": "0932535455",
+  "dateOfBirth": "25 October 2000",
+  "subjects": [
+    "Maths",
+    "Arts"
+  ],
+  "hobbies": [
+    "Sports",
+    "Music"
+  ],
+  "picturePath": "/src/test/resources/testdata/images/ava.jpg",
+  "address": "Binh Thanh",
+  "state": "NCR",
+  "city": "Delhi"
+}

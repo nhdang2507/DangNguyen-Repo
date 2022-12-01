@@ -37,7 +37,7 @@ public class BaseTest {
     @BeforeMethod
     public void beforeMethodBaseTest(){
         ChromeOptions chromeOptions = new ChromeOptions();
-        WebDriverManager.chromedriver().driverVersion("104.0.5112.48").setup();
+        WebDriverManager.chromedriver().driverVersion("107.0.5304.62").setup();
         try {
             driver = new ChromeDriver(chromeOptions);
         }
